@@ -1,0 +1,68 @@
+Exemplos de fractais:
+
+1-
+	F + F + F + F
+	
+	F + f - F F + F + F F + F f + F F - f + F F - F - F F - F f - F F F
+
+	f f f f f f
+
+	2 repetições
+
+2-
+	F - F - F - F
+
+	F + F F - F F - F - F + F + F F - F - F + F + F F + F F - F
+	
+	2 repetições
+
+3-
+	- F
+
+	F + F - F - F + F
+
+	4 repetições
+
+4-
+	F - F - F - F
+
+	F F - F - F - F - F - F + F
+
+	4 repetições
+
+5-
+	F - F - F - F
+
+	F F - F - F - F - F F
+
+	4 repetições
+
+6-
+	F - F - F - F
+
+	F F - F + F - F - F F
+
+	3 repetições
+
+7-
+	F - F - F - F
+	
+	F F - F - - F - F
+
+	4 repetições
+
+8-
+	F - F - F - F
+
+	F - F F - - F - F
+
+	5 repetições
+
+9-
+	F - F - F - F
+
+	F - F + F - F - F
+
+	4 repetições
+
+Guia de cores para a Turtle: https://matplotlib.org/examples/color/named_colors.html
