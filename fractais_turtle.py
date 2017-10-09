@@ -9,7 +9,7 @@ import turtle
 
 window = turtle.Screen()
 
-n = input("Digite as instruções para a tartaruga('F' para andar, '-' para virar à direita em 90, '+' para virar à esquerda em 90, '(' para virar à esquerda em 60, ')' para virar à direita em 60 e 'f' para andar sem rastro): ")
+n = input("Digite as instruções para a tartaruga('F' para andar, '-' para virar à direita em 90, '+' para virar à esquerda em 90, ')' para virar à esquerda em 60, '(' para virar à direita em 60 e 'f' para andar sem rastro): ")
 F = input("Digite a regra de movimento de 'F': ")
 f = input("Digite a regra de movimento de 'f': ")
 r = int(input("Quantas repetições terá o desenho: "))
@@ -45,7 +45,7 @@ for a in range(len(l)):
         tartaruga1.left(90)
     if l[a] == '-':
         tartaruga1.right(90)
-    if l[a] == '(':
-        tartaruga1.left(60)
     if l[a] == ')':
+        tartaruga1.left(60)
+    if l[a] == '(':
         tartaruga1.right(60)

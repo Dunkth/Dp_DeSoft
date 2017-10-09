@@ -65,4 +65,13 @@ Exemplos de fractais:
 
 	4 repetições
 
+10-
+	F
+
+	f ( F ( f
+
+	F ) f ) F
+
+	6 repetições
+
 Guia de cores para a Turtle: https://matplotlib.org/examples/color/named_colors.html
